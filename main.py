@@ -8,3 +8,4 @@ r = requests.get('http://api.aladhan.com/v1/timings/1398332113?latitude=51.50851
 
 with open(file, 'w') as filetowrite:
     filetowrite.write(r.text)
+
